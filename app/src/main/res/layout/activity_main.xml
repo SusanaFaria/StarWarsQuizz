@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context="com.example.android.starwarsquizz.MainActivity"
+    tools:ignore="ContentDescription"
+    android:background="@drawable/maxresdefault">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/def2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D50000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/starjhol"
+            android:text="@string/mTfBwY"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#D50000"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#D50000" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quest1"
+            android:textColor="@color/color1"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/Quest1"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/luke_saber6">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A1.1"
+                android:textColor="@color/color1"
+                app:buttonTint="@color/radiobutton_state_list"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A1.2"
+                android:textColor="@color/color1"
+                app:buttonTint="@color/radiobutton_state_list"/>
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/A1.3"
+                android:textColor="@color/color1"
+                app:buttonTint="@color/radiobutton_state_list"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quest2"
+            android:textColor="@color/color1"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/Quest2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:paddingTop="8dp"
+            android:paddingLeft="16dp"
+            android:background="@drawable/obi_wan">
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/A2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A2.1"
+            android:textColor="@color/color1"
+            app:buttonTint="@color/radiobutton_state_list"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/A2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A2.2"
+            android:textColor="@color/color1"
+            app:buttonTint="@color/radiobutton_state_list"/>
+
+        <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/A2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A2.3"
+            android:textColor="@color/color1"
+            app:buttonTint="@color/radiobutton_state_list"/>
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quest3"
+            android:textColor="@color/color1"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/mill_falc"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/mill_falc"
+            android:alpha=".5"/>
+
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/Quest3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:inputType="textCapWords"
+                android:paddingLeft="16dp"
+                android:paddingStart="16dp"
+                android:paddingTop="56dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="#BDBDBD"
+                android:textSize="20sp"
+                app:backgroundTint="@color/colorAccent"
+                android:imeOptions="actionDone"
+                android:maxLength="20"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quest4"
+            android:textColor="@color/color1"
+            android:paddingStart="24dp"
+            android:paddingLeft="24dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:id="@+id/textView" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/light_sabers"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:alpha=".4"
+                android:scaleType="centerCrop"
+                android:src="@drawable/light_sabers_alpha" />
+
+            <CheckBox
+                android:id="@+id/A4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/A4_3"
+                android:layout_alignBottom="@+id/A4_3"
+                android:layout_marginLeft="28dp"
+                android:layout_marginStart="28dp"
+                android:text="@string/A1.1"
+                android:textColor="@color/color1"
+                android:textSize="20sp"
+                android:theme="@style/checkBoxColor" />
+
+            <CheckBox
+                android:id="@+id/A4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/A4_1"
+                android:layout_alignStart="@+id/A4_1"
+                android:layout_below="@+id/A4_1"
+                android:text="@string/A4"
+                android:textColor="@color/color1"
+                android:textSize="20sp"
+                android:theme="@style/checkBoxColor" />
+
+
+            <CheckBox
+                android:id="@+id/A4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/A1.2"
+                android:textColor="@color/color1"
+                android:textSize="20sp"
+                android:theme="@style/checkBoxColor" />
+
+            <CheckBox
+                android:id="@+id/A4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/A4_3"
+                android:layout_alignStart="@+id/A4_3"
+                android:layout_below="@+id/A4_3"
+                android:text="@string/A1.3"
+                android:textColor="@color/color1"
+                android:textSize="20sp"
+                android:theme="@style/checkBoxColor" />
+
+        </RelativeLayout>
+
+          <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/color1" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="48dp"
+                android:layout_marginStart="48dp"
+                android:text="@string/submit"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/starjedi1"
+                android:textSize="20sp"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+            <Button
+                android:id="@+id/reset"
+                android:onClick="reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="48dp"
+                android:layout_marginRight="48dp"
+                android:text="@string/reset"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:fontFamily="@font/starjedi1"
+                android:textSize="20sp"
+                style="@style/Widget.AppCompat.Button.Borderless"/>
+
+    </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

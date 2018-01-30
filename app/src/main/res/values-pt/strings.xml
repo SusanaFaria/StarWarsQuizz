@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Star Wars Quizz</string>
+    <string name="mTfBwY">Que a Força esteja contigo</string>
+    <string name="quest1">De que cor era o primeiro sabre de luz de Luke Skywalker?</string>
+    <string name="A1.1">Vermelho</string>
+    <string name="A1.2">Verde</string>
+    <string name="A1.3">Azul</string>
+    <string name="quest2">Quem é a personagem nesta foto?</string>
+    <string name="quest3">Como se chama a nave do Han Solo?</string>
+    <string name="hint">O que achas?</string>
+    <string name="quest4">Que Sabres de Luz não são usados pelos Jedi?</string>
+    <string name="A4">Preto</string>
+    <string name="submit">Go</string>
+    <string name="reset">Reset</string>
+    <string name="lowScore">Já te perdemos para o Lado Negro da Força…</string>
+    <string name="midScore">Nada mau, mas ainda tens que ir ter com                      o Mestre Yoda e completar o teu treino Jedi.</string>
+    <string name="highScore">Obrigada por ajudares a derrotar o malvado Império.             És um verdadeiro Jedi.               A Força está mesmo contigo.</string>
+    <string name="stOver">De certeza que completaste o teu treino?</string>
+</resources>

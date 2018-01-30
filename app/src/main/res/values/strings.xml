@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Star Wars Quizz</string>
+
+    <string name="mTfBwY">"May the force be with you</string>
+    <string name="quest1">What color was Luke Skywalker\'s first light saber?</string>
+    <string name="A1.1">Red</string>
+    <string name="A1.2">Green</string>
+    <string name="A1.3">Blue</string>
+
+    <string name="quest2">Who is the character in this picture?</string>
+    <string name="A2.1">Yoda</string>
+    <string name="A2.2">Obi-Wan-Kenobi</string>
+    <string name="A2.3">Kylo Ren</string>
+
+    <string name="quest3">What\'s the name of Han Solo\'s ship?</string>
+    <string name="hint">What do you think?</string>
+    <string name="milFalc">Millennium Falcon</string>
+
+    <string name="quest4">Which Light Sabers are not used by the Jedi?</string>
+    <string name="A4">Black</string>
+
+    //string for the submit button
+    <string name="submit">Go</string>
+
+    //string for the reset button
+    <string name="reset">Try again</string>
+
+    <string name="lowScore">You are lost to the Dark Side of the Force…</string>
+    <string name="midScore"> Not bad, but you still have to go to Master Yoda
+                               and complete your Jedi training.</string>
+    <string name="highScore">Thank you for helping defeat the evil Empire             You are a true Jedi.             The Force is definitely with you.;</string>
+
+    <string name="stOver">Are you sure you completed your training?</string>
+</resources>
+
